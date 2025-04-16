@@ -38,14 +38,7 @@ public class Student {
         System.out.println("Name:- " + name + " Student Id:- " + studentID + " grade" + grade + " section " + this.section);
     }
 
-    public String toString() {
-        return "\n--- Student Record ---" +
-                "\nID: " + studentID +
-                "\nName: " + name +
-                "\nSection: " + section +
-                "\nGrade: " + grade +
-                "\n----------------------";
-    }
+  
 
 
 
